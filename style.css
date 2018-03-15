@@ -1,0 +1,172 @@
+body {
+  margin: auto;
+  background-image: url("img/sub_floor.png");
+}
+
+#key{
+  background-image: url("img/key.png");
+  position: absolute;
+  height: 26px;
+  width: 32px;
+  right: 0;
+  margin-right: 30px;
+  bottom: 0;
+  margin-bottom: 6px;
+}
+
+#home {
+  background-image: url("img/home.png ");
+  height: 80px;
+  width: 120px;
+  left: 10;
+  bottom: 0;
+  color: white;
+  line-height: 26px;
+  padding-left: 5px;
+  position: absolute;
+
+}
+#debug {
+  left: 0;
+  top: 0;
+  position: absolute;
+  height: 700px;
+  width: 200px;
+  color: white;
+}
+
+#time {
+left: 0;
+top: 0;
+padding-top: 15px;
+padding-bottom: 12px;
+position: absolute;
+font-size:25px;
+color: #27ae60;
+font-weight: bold;
+width: 100px;
+height: 25px;
+line-height: 25px;
+border-bottom: 5px solid #27ae60;
+}
+
+#regame {
+position: absolute;
+right: 0;
+top: 0;
+line-height: 25px;
+font-size: 25px;
+color: #27ae60;
+height: 25px;
+width: 200px;
+font-weight: bold;
+padding-top: 15px;
+padding-bottom: 12px;
+border-bottom: 5px solid #27ae60;
+}
+
+#world {
+  margin: 0;
+  width : 100%;
+  height: 100%;
+}
+
+#sky {
+  top: 0;
+  position: absolute;
+  background-color: #ecf0f1;
+  height: 70%;
+  width:100%;
+
+}
+
+#game {
+  position: absolute;
+  /*border-top: 1px solid red;
+  border-bottom: 1px solid red;*/
+  width: 1000px;
+  height: 250px ;
+  bottom: 0;
+  border-right: 1px solid red;
+}
+
+#deadlyspikes{
+  position: absolute;
+  /*border-left: 12px solid red;*/
+  margin-left: -10px;
+  background-image: url("img/spike.png");
+  height: 250px;
+  width: 12px;
+  left: 0;
+  bottom: 0;
+}
+
+#other{
+  position: absolute;
+  margin-left: 1000px;
+  background-image: url("img/sub_floor.png");
+  height: 250px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+
+
+#othertop{
+  background-image: url("img/jungle_floor.png");
+  right: 0;
+  height: 60px;
+}
+
+#floor {
+  background-image: url("img/jungle_floor.png");
+  width: 100%;
+  height: 60px;
+  bottom: 0;
+  margin-bottom:-60px;
+  position: absolute;
+
+}
+
+
+#player {
+  height: 19px;
+  width: 25px;
+  bottom: 0;
+  position: absolute;
+  background-image: url("img/monkey_right.png");
+  left: 80px;
+  color: white;
+  text-align: center;
+}
+
+#player2 {
+  height: 19px;
+  width: 25px;
+  top: 0;
+  margin-top: -19px;
+  margin-left: 10px;
+  position: absolute;
+  background-image: url("img/monkey_left.png");
+  color: white;
+  text-align: center;
+}
+
+.block {
+  height: 80px;
+  width: 80px;
+  top: 0;
+  position: absolute;
+  background-image: url("img/block.png");
+  text-align:center;
+  line-height:80px;
+  color:white;
+}
+
+#username {
+  height: 16px;
+  position: absolute;
+  margin-top: -20px;
+  color: black;
+}
